@@ -14,7 +14,7 @@ def dos(target):
 
 threads = 100
 
-url = input(https://sch2.ru/)
+url = "https://sch2.ru/"
 
 try:
     threads = int(input("Threads: "))
