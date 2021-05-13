@@ -1,1 +1,1 @@
-bot: dos.py
+bot: python dos.py
